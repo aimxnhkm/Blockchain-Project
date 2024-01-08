@@ -1,0 +1,351 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "HealthRecord",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "BloodPressure",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "BloodSugar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Weight",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Temperature",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "MedicalPres",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "Patients",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "PatientName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientICNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientContno",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientGender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientEmail",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientAdd",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "PatientAge",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientMedhis",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_PatientICNumber",
+						"type": "string"
+					}
+				],
+				"name": "getHealthRecords",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "BloodPressure",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "BloodSugar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Weight",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Temperature",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "MedicalPrescription",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_PatientICNumber",
+						"type": "string"
+					}
+				],
+				"name": "getPatientDetails",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "Name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "PatientICNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "ContactNo",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Gender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Email",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "Address",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "Age",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "MedicalHistory",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "health_ID",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pa_ID",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_BloodPressure",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_BloodSugar",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Weight",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_Temperature",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_MedicalPres",
+						"type": "string"
+					}
+				],
+				"name": "setHealthRecords",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_PatientName",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientICNumber",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientContno",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientGender",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientEmail",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientAdd",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_PatientAge",
+						"type": "uint32"
+					},
+					{
+						"internalType": "string",
+						"name": "_PatientMedhis",
+						"type": "string"
+					}
+				],
+				"name": "setPatientDetails",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/browser/Healthcare.sol": "Healthcare"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/browser/Healthcare.sol": {
+			"keccak256": "0xf64bdb506002f24854ffcb3ccb6cff8efb60a6f4119d61275b261e40bd406833",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://b4f9f6e9bf0b8f9844737981816f5907eeb7f38c2311fffc3267226f45055279",
+				"dweb:/ipfs/QmfTUjwBk85gaBff2RqwN4F2EDQtjKEgvhGfqEwYz8rQAw"
+			]
+		}
+	},
+	"version": 1
+}
