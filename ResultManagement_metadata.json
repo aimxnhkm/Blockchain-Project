@@ -1,0 +1,355 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"name": "Students",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "studID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "progCode",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "Part",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "sub1",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "sub2",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "sub3",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "sub4",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "sub5",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "gpa",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_studID",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "_progCode",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_part",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_sub1",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_sub2",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_sub3",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_sub4",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "_sub5",
+						"type": "uint32"
+					}
+				],
+				"name": "addStudentMarks",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint32",
+						"name": "a",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "b",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "c",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "d",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "f",
+						"type": "uint32"
+					}
+				],
+				"name": "calcGPA",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_studID",
+						"type": "string"
+					}
+				],
+				"name": "getCurrentStudent",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "a",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "b",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "c",
+						"type": "string"
+					},
+					{
+						"internalType": "uint32",
+						"name": "d",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "e",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "f",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "g",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "h",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "i",
+						"type": "uint32"
+					},
+					{
+						"internalType": "uint32",
+						"name": "k",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "listAllStudents",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "studID",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "progCode",
+								"type": "string"
+							},
+							{
+								"internalType": "uint32",
+								"name": "Part",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "sub1",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "sub2",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "sub3",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "sub4",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "sub5",
+								"type": "uint32"
+							},
+							{
+								"internalType": "uint32",
+								"name": "gpa",
+								"type": "uint32"
+							}
+						],
+						"internalType": "struct ResultManagement.Student[]",
+						"name": "",
+						"type": "tuple[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "student_id",
+				"outputs": [
+					{
+						"internalType": "uint32",
+						"name": "",
+						"type": "uint32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/browser/ResultManagement.sol": "ResultManagement"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/browser/ResultManagement.sol": {
+			"keccak256": "0xc092b4e29b4d11b2dca8404cd16cbe47185736b7185b7c811cbbb97efd68628b",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://965a630ecd0e7304c90a90606b065513af2a34849de2258b4f57c3723ec3d2a6",
+				"dweb:/ipfs/QmVp5MrJB8GPecNoqQDzHPuh81N6UoyDSdyKR5k5SAEWCw"
+			]
+		}
+	},
+	"version": 1
+}
